@@ -154,4 +154,154 @@
     border-radius: 5px; 
     box-shadow: 10px 10px 5px  rgba(0, 0, 0, .65);
     color: #fff;
+
+}
+
+.pre{
+    margin-left: 10px; 
+    font-size: 36px !important;
+}
+
+.img-pre-evento{
+    width:50%;
+    border:none; 
+    box-shadow: none
+}
+
+@media (min-width:900px) and (max-width:1440px){
+    .titulo{
+        font-size: 65px !important;
+    }
+    .reveal p{
+        font-size: 28px;
+    }
+
+    .parrafo{
+        font-size: 24px !important;
+    }
+
+    .subtitulo{
+
+        font-size: 60px !important; 
+        }
+
+        .sociales p{
+            font-size: 32px;
+        }   
+        
+        .targeta{
+            width: 90%;
+            height: 70%;
+        }
+
+        .efecto_columna{
+            width: 90%;
+            height: 250px;
+            
+        }
+
+        .resaltar{
+
+            font-size: 32px !important;
+        
+        }
+
+        .btn{
+            line-clamp: 4;
+            padding: 2px;
+        }
+
+        .tarjeta{
+           
+            width: 40%;
+            height: 2%;
+            margin-top:10px;
+            padding: 10px 15px;
+            
+        }
+
+        .pre{
+            margin-left: 5px; 
+            font-size: 16px !important;
+        }
+ }     
+
+@media  (max-width:899px){
+    .titulo{
+        font-size: 36px !important;
+        position: relative !important; 
+    }
+
+    .reveal p{
+        font-size: 16px;
+    }
+
+    .parrafo{
+        font-size: 16px !important;
+    }
+
+    .subtitulo{
+
+        font-size: 26px !important; 
+        }
+
+        .sociales p{
+            font-size: 10px;
+        }   
+        
+        .targeta{
+            width: 40%;
+            height: 35%;
+        }
+
+        .efecto_columna{
+            width: 80%;
+            height: 100px;
+            
+        }
+
+        .resaltar{
+
+            font-size: 20px !important;
+        
+        }
+
+        .btn{
+            line-clamp: 1;
+            padding: 1px;
+            font-size: 20px;
+        }
+
+        .tarjeta{
+           
+            width: 40%;
+            height: 1%;
+            margin-top:2px;
+            padding: 1px 2px;
+            
+        }
+
+        .pre{
+            margin-left: 10px; 
+            font-size:  12px !important;
+        }
+
+        .reveal li{
+            font-size: 16px !important;
+        }
+
+        .reveal h3{
+            font-size: 26px;
+        }
+
+        .atras{
+            padding-top: 0px;
+            font-size: 12px;
+        }
+
+        .imgPre-evento {
+            width: 10px;
+        }
+
+   
 }
